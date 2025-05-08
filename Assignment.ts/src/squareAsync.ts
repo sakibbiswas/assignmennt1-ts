@@ -5,7 +5,7 @@
         return new Promise((resolve, reject) => {
           setTimeout(() => {
            if( n < 0 ){
-            return reject(new Error("Negative number not allowed"))
+            return reject(new Error("Negative Number Not Allowed"))
            }
 
            else{
@@ -21,7 +21,7 @@
       squareAsync(-3).catch(console.error);    // Output: Error: Negative number not allowed
 
       
-
+     
 
 
 
