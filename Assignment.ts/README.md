@@ -26,7 +26,7 @@ String Enum Example--->
 enum Status {
   Active = "ACTIVE",
   Inactive = "INACTIVE",
-  Pending = "PENDING",
+  Pending = "PENDING", 
 }
 
 console.log(Status.Active);   // Output: "ACTIVE"
