@@ -1,5 +1,5 @@
 
-### Simplifying TypeScript: Key Concepts I Should Know --->
+# Simplifying TypeScript: Key Concepts I Should Know --->
 
 `TypeScript brings powerful typing features to JavaScript, making development easier and safer. In this short blog post, I will cover two key concepts: Enums and Type Inference in TypeScript. These features help streamline your code and improve maintainability.`
 
@@ -9,7 +9,7 @@
 
 `There are two types of enums: numeric enums and string enums.`
 
-# Numeric Enum Example--->
+## Numeric Enum Example--->
 
 ` enum Direction {
   Up = 1,
@@ -23,7 +23,7 @@ console.log(Direction.Right);  // Output: 4`
 
 `In a numeric enum, the first value is set explicitly, and subsequent values are auto-incremented.`
 
-# String Enum Example--->
+## String Enum Example--->
 
 `enum Status {
   Active = "ACTIVE",
@@ -53,7 +53,7 @@ console.log(Status.Pending);  // Output: "PENDING"`
 
 `Maintains Consistency : TypeScript automatically tracks and enforces correct types, reducing bugs caused by inconsistent variable types.`
 
-# Example of Type Inference
+## Example of Type Inference--->
 
 `let message = "Hello, TypeScript!";   // TypeScript infers 'message' as a string.`
 
@@ -61,4 +61,5 @@ console.log(Status.Pending);  // Output: "PENDING"`
 
 `In this example, TypeScript infers that message is a string, so trying to assign a number to it results in an error. Type inference keeps My code concise while still ensuring that I don’t introduce type-related bugs.`
 
-`Conclusion : By using Enums and Type Inference in TypeScript, I can write cleaner, safer, and more maintainable code. Enums help you manage sets of constant values, while type inference lets TypeScript handle types for me, making the development process smoother . Both features contribute significantly to reducing errors and improving project maintainability.`
+## Conclusion :-
+ `By using Enums and Type Inference in TypeScript, I can write cleaner, safer, and more maintainable code. Enums help you manage sets of constant values, while type inference lets TypeScript handle types for me, making the development process smoother . Both features contribute significantly to reducing errors and improving project maintainability.`
