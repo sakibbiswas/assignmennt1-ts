@@ -1,8 +1,10 @@
 <!-- Writing a Blog -->
 Simplifying TypeScript: Key Concepts I Should Know --->
+
 TypeScript brings powerful typing features to JavaScript, making development easier and safer. In this short blog post, I will cover two key concepts: Enums and Type Inference in TypeScript. These features help streamline your code and improve maintainability.
 
 What is the Use of Enums in TypeScript?
+
 Ans : Enums in TypeScript provide a way to define a set of named constants. They are great for representing discrete values that don’t change, like days of the week, status codes, or directions.
 
 There are two types of enums: numeric enums and string enums.
@@ -17,7 +19,7 @@ enum Direction {
 }
 
 console.log(Direction.Up);   // Output: 1
-console.log(Direction.Right); // Output: 4
+console.log(Direction.Right);  // Output: 4
 
 In a numeric enum, the first value is set explicitly, and subsequent values are auto-incremented.
 
@@ -37,10 +39,12 @@ String enums are ideal when I want the values to be more readable and consistent
 Enums in TypeScript help I write more expressive and error-resistant code, especially when dealing with predefined sets of values.
 
 What is Type Inference in TypeScript?
+
 Ans : Type inference is one of TypeScript's most helpful features. It allows TypeScript to automatically figure out the type of a variable based on its assigned value. This reduces the need for explicit type declarations, making the code shorter while maintaining type safety.
 
 
 Why is Type Inference Helpful?
+
 Reduces Repetitive Code : TypeScript automatically infers types, so you don't need to manually declare types every time.
 
 Improves Developer Productivity : Less typing means faster development and fewer repetitive type declarations.
@@ -51,8 +55,9 @@ Maintains Consistency : TypeScript automatically tracks and enforces correct typ
 
 Example of Type Inference
 
-let message = "Hello, TypeScript!";  // TypeScript infers 'message' as a string
-message = 42;  // Error: Type 'number' is not assignable to type 'string'
+let message = "Hello, TypeScript!";   // TypeScript infers 'message' as a string.
+
+message = 42;   // Error: Type 'number' is not assignable to type 'string'.
 
 In this example, TypeScript infers that message is a string, so trying to assign a number to it results in an error. Type inference keeps My code concise while still ensuring that I don’t introduce type-related bugs.
 
